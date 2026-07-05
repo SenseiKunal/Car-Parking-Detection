@@ -42,10 +42,10 @@ model = YOLO("yolov8m.pt")
 
 # Define videos
 video_options = {
-    "Easy 1": r"D:\Running Project\Car Parking Detection\easy1.mp4",
-    "Easy 2": r"D:\Running Project\Car Parking Detection\easy2.mp4",
-    "Easy 3": r"D:\Running Project\Car Parking Detection\easy3.mp4",
-    "Easy 4": r"D:\Running Project\Car Parking Detection\easy4.mp4"
+    "Easy 1": "videos/easy1.mp4",
+    "Easy 2": "videos/easy2.mp4",
+    "Easy 3": "videos/easy3.mp4",
+    "Easy 4": "videos/easy4.mp4"
 }
 
 # Select video
